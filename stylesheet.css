@@ -68,7 +68,8 @@ h3 {
 }
 
 .body-image {
-  width: 80%;
+  max-width: 80%;
+  max-height: 50px;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -92,6 +93,10 @@ h3 {
 button {
   font-size: 20px;
   margin-top: 5px;
+}
+
+.addthis_inline_share_toolbox {
+  text-align: center;
 }
 
 footer {
